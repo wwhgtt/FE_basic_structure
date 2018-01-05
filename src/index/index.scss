@@ -1,5 +1,16 @@
-$color: #f1f1f1;
+$color: #000;
 
 .container {
   color: $color;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.input-group  {
+  width: 500px;
+  margin: 0 auto 50px;
+}
+
+.btn-group {
+  margin: 0 auto;
 }

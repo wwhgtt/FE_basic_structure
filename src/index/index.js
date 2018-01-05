@@ -1,6 +1,7 @@
 const $ = require('jquery');
-require('./index.scss')
+require('./index.scss');
+require('../asset/bootstrap/css/bootstrap.min.css');
 
 $(document).ready(function(){
-  alert(1111)
+  console.log('ready');
 })

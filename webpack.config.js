@@ -24,12 +24,12 @@ module.exports = {
         loaders: ['babel-loader'], // 'babel-loader' is also a legal name to reference
       },
       {
-        test: /\.scss$/,
+        test: /\.scss|css$/,
         loaders: ['style', 'css?sourceMap', 'postcss', 'sass?&sourceMap&includePaths[]=./src/asset/style'],
       },
       {
-        test: /\.png|jpg|jpeg$/,
-        loaders: ['url?name=asset/img/[hash].[ext]'],
+        test: /\.png|jpg|jpeg|eot|ttf|svg|woff2|woff$/,
+        loaders: ['url-loader', 'url?name=asset/img/[hash].[ext]'],
       },
       {
         test: /\.json$/,

@@ -14,10 +14,22 @@
       <title>{%=o.htmlWebpackPlugin.options.title || 'JianDi App'%}</title>
   </head>
   <body>
-      <div id="app-placeholder" class="transparent-container">
-        <div class="container">
-          22222
+    <div id="app-placeholder" class="transparent-container">
+      <div class="container">
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon1">用户名</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon2">密码</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default">提交</button>
         </div>
       </div>
+    </div>
   </body>
 </html>
