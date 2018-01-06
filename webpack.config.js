@@ -5,7 +5,8 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   entry: {
-    'index': ['./src/index/index.js']
+    'index': ['./src/index/index.js'],
+    'login': ['./src/login/login.js']
   },
   resolve: {
     fallback: '/usr/local/lib/node_modules',
@@ -47,6 +48,14 @@ module.exports = {
         filename: 'index.html',
         chunks: ['common', 'index'],
         inject: 'body', template: './src/index/index.html',
+      }
+    ),
+    new HtmlWebpackPlugin(
+      {
+        title: 'LoginApplication',
+        filename: 'login.html',
+        chunks: ['common', 'login'],
+        inject: 'body', template: './src/login/login.html',
       }
     ),
     new webpack.optimize.CommonsChunkPlugin({

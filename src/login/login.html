@@ -11,11 +11,25 @@
       <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
       <meta http-equiv="pragma" content="no-cache"/>
       <meta name="format-detection" content="telephone=no" />
-      <title>{%=o.htmlWebpackPlugin.options.title || 'JianDi App'%}</title>
+      <title>{%=o.htmlWebpackPlugin.options.title || '登陆'%}</title>
   </head>
   <body>
     <div id="app-placeholder" class="transparent-container">
+      <div class="container">
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon1">用户名</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+        </div>
 
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon2">密码</span>
+          <input type="password" class="form-control" placeholder="password" aria-describedby="sizing-addon2">
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default">提交</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
