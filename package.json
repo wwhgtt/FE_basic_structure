@@ -1,7 +1,7 @@
 {
-  "name": "JianDi",
+  "name": "structure_basic",
   "version": "1.0.0",
-  "description": "见地网路客服问答系统",
+  "description": "基本架构",
   "author": "wenhai wu",
   "license": "ISC",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joysae/pc_jiandi.git"
+    "url": ""
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
