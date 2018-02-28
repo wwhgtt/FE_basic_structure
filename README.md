@@ -10,6 +10,4 @@ http://brew.sh/
 
 2. clone 项目 git repo 到本地,并进入到项目根目录
 3. 执行 ｀npm install｀，并确认安装过程成功完成  
-
-4. 执行 `export DEV_HOST=${你的本机 IP}`
-5. 执行 `npm run start`，并使用浏览器打开 http://${你的本机 IP}:3000/
+4. 执行 `npm run start`，并使用浏览器打开 http://localhost:3000/
