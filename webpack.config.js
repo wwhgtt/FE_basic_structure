@@ -23,7 +23,7 @@ module.exports = {
     // 此路径下的打包文件可在浏览器中访问。
     // 假设服务器运行在 http://localhost:8080 并且 output.filename 被设置为 bundle.js。
     // 默认 publicPath 是 "/"，所以你的包(bundle)可以通过 http://localhost:8080/bundle.js 访问。
-    publicPath: `http://${process.env.DEV_HOST}:3000/`,
+    publicPath: `http://localhost:3000/`,
   },
   devtool: ['source-map'],
   module: {
